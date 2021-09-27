@@ -1,0 +1,3 @@
+cd ./src/fake-api
+npx json-server db.json -p 2000
+ 

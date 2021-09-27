@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "fullName": "Sita Desvinti",
+      "username": "sitadesvianti",
+      "email": "sitadesvianti96@gmail.com",
+      "password": "btaripuspita",
+      "id": 1,
+      "role": "user"
+    },
+    {
+      "fullName": "Btari Puspita Tata",
+      "username": "btaripuspita",
+      "email": "btaripuspita.tata@gmail.com",
+      "password": "sitadesvianti",
+      "id": 2,
+      "role": "user"
+    },
+    {
+      "fullName": "admin",
+      "username": "admin",
+      "email": "admin@email.com",
+      "password": "admin",
+      "id": 3,
+      "role": "admin"
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 1,
+      "recepientName": "Sita Desvianti",
+      "recepientAddress": "Perum Sakura Regency",
+      "totalPrice": 52500,
+      "totalPayment": 100000,
+      "transactionDate": "27-9-2021",
+      "transactionItems": [
+        {
+          "userId": 1,
+          "productId": 1,
+          "price": 25000,
+          "productName": "Boots",
+          "productImage": "https://imgur.com/clrOJb7.jpeg",
+          "quantity": 2,
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Boots",
+      "price": 25000,
+      "productImage": "https://imgur.com/clrOJb7.jpeg",
+      "description": "Sepatu boots musim dingin",
+      "category": "shoes"
+    },
+    {
+      "id": 2,
+      "productName": "Oxfords",
+      "price": 23000,
+      "productImage": "https://imgur.com/nDU8Mix.jpeg",
+      "description": "Sepatu oxford casual",
+      "category": "shoes"
+    },
+    {
+      "id": 3,
+      "productName": "Loafers",
+      "price": 35000,
+      "productImage": "https://imgur.com/7jijumc.jpeg",
+      "description": "Sepatu loafer formal",
+      "category": "shoes"
+    },
+    {
+      "id": 4,
+      "productName": "Sneakers",
+      "price": 20000,
+      "productImage": "https://imgur.com/w0xloNK.jpeg",
+      "description": "Sepatu sneakers olahraga",
+      "category": "shoes"
+    },
+    {
+      "id": 5,
+      "productName": "Belts",
+      "price": 35000,
+      "productImage": "https://imgur.com/6SYwRef.jpeg",
+      "description": "Ikat pinggang diperlihatkan!",
+      "category": "accessories"
+    },
+    {
+      "id": 6,
+      "productName": "Hats & Caps",
+      "price": 36500,
+      "productImage": "https://imgur.com/CZRbAhl.jpeg",
+      "description": "Pakai topinya",
+      "category": "accessories"
+    },
+    {
+      "id": 7,
+      "productName": "Sunglasses",
+      "price": 43500,
+      "productImage": "https://imgur.com/KTgHYiq.jpeg",
+      "description": "Pakai kacamata kalau silau",
+      "category": "accessories"
+    },
+    {
+      "id": 8,
+      "productName": "Scarves",
+      "price": 34000,
+      "productImage": "https://imgur.com/YURHcmV.jpeg",
+      "description": "Pakai syal kalau kedinginan",
+      "category": "accessories"
+    },
+    {
+      "id": 9,
+      "productName": "Casual",
+      "price": 32500,
+      "productImage": "https://imgur.com/G6plJT1.jpeg",
+      "description": "Jam tangan casual",
+      "category": "watches"
+    },
+    {
+      "id": 10,
+      "productName": "Luxury",
+      "price": 49000,
+      "productImage": "https://imgur.com/7cGLCmJ.jpeg",
+      "description": "Jam tangan luxury",
+      "category": "watches"
+    },
+    {
+      "id": 11,
+      "productName": "Sport",
+      "price": 44500,
+      "productImage": "https://imgur.com/EBsGfEM.jpeg",
+      "description": "Jam tangan sport",
+      "category": "watches"
+    },
+    {
+      "id": 12,
+      "productName": "Carry-Ons",
+      "price": 130000,
+      "productImage": "https://imgur.com/2xeFvQ5.jpeg",
+      "description": "Koper yang punya roda",
+      "category": "bags"
+    },
+    {
+      "id": 13,
+      "productName": "Duffel Bags",
+      "price": 125000,
+      "productImage": "https://imgur.com/c5ZTBFR.jpeg",
+      "description": "Koper yang bisa ditenteng",
+      "category": "bags"
+    },
+    {
+      "id": 14,
+      "productName": "Laptop Bags",
+      "price": 129900,
+      "productImage": "https://imgur.com/TWMtuB3.jpeg",
+      "description": "Tas untuk membawa laptop",
+      "category": "bags"
+    },
+    {
+      "id": 15,
+      "productName": "Briefcases",
+      "price": 125000,
+      "productImage": "https://imgur.com/O9mtcqj.jpeg",
+      "description": "Tas untuk menyimpan file penting",
+      "category": "bags"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "productId": 1,
+      "price": 25000,
+      "productName": "Boots",
+      "productImage": "https://imgur.com/clrOJb7.jpeg",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "price": 23000,
+      "productName": "Oxfords",
+      "productImage": "https://imgur.com/nDU8Mix.jpeg",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "price": 35000,
+      "productName": "Loafers",
+      "productImage": "https://imgur.com/7jijumc.jpeg",
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "productId": 4,
+      "price": 20000,
+      "productName": "Sneakers",
+      "productImage": "https://imgur.com/w0xloNK.jpeg",
+      "quantity": 1,
+      "id": 4
+    }
+  ]
+}
